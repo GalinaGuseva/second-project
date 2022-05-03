@@ -1,0 +1,17 @@
+.footer {
+  min-height: 18px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding-bottom: 24px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    min-height: 310px;
+    display: flex;
+    flex-direction: column;
+    flex-direction: flex-start;
+    position: relative;
+  }
+}
