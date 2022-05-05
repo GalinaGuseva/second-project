@@ -7,9 +7,12 @@
   position: relative;
 }
 
+.place:last-of-type {
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 1279px) {
   .place {
-    display: grid;
     grid-template-columns: 440px 1fr;
     grid-template-rows: 1fr 440px;
     gap: 48px 32px;
@@ -18,7 +21,6 @@
 
 @media screen and (max-width: 1023px) {
   .place {
-    display: grid;
     grid-template-columns: 340px 1fr;
     grid-template-rows: 1fr min-content;
     gap: 32px 28px;
@@ -28,7 +30,6 @@
 
 @media screen and (max-width: 767px) {
   .place {
-    display: grid;
     grid-template-columns: minmax(320px, 1fr);
     grid-template-rows: auto;
     gap: 32px;
